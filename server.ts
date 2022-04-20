@@ -127,6 +127,7 @@ async function restoreOverwrittenFilesWithOriginals () {
 
 /* Sets view engine to hbs */
 app.set('view engine', 'hbs')
+// Random comment goes here
 
 // Function called first to ensure that all the i18n files are reloaded successfully before other linked operations.
 restoreOverwrittenFilesWithOriginals().then(() => {
